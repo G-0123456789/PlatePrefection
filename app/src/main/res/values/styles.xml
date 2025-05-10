@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text appearance styles with serif font -->
+    <style name="TextAppearance.SmartRestaurant.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="TextAppearance.SmartRestaurant.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">serif</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <!-- Default TextView style -->
+    <style name="Widget.SmartRestaurant.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">serif</item>
+        <item name="fontFamily">serif</item>
+    </style>
+
+    <!-- Toolbar style -->
+    <style name="Widget.SmartRestaurant.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/toolbar_color</item>
+        <item name="background">@color/toolbar_color</item>
+    </style>
+
+    <!-- FloatingActionButton style -->
+    <style name="Widget.SmartRestaurant.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:backgroundTint">@color/fab_background</item>
+        <item name="backgroundTint">@color/fab_background</item>
+        <item name="tint">@color/black</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="Widget.SmartRestaurant.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="backgroundTint">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Fullscreen style for all activities -->
+    <style name="FullscreenActivityStyle">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- Custom Dialog Style -->
+    <style name="CustomDialogStyle" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <!-- Dialog background color -->
+        <item name="android:background">#616569</item>
+        <item name="android:windowBackground">#616569</item>
+
+        <!-- Dialog text color -->
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+
+        <!-- Button styling -->
+        <item name="buttonBarPositiveButtonStyle">@style/CustomDialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/CustomDialogButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/CustomDialogButtonStyle</item>
+    </style>
+
+    <!-- Custom Dialog Button Style -->
+    <style name="CustomDialogButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@android:color/black</item>
+        <item name="android:textColor">#F8BC12</item>
+        <item name="rippleColor">#80F8BC12</item>
+    </style>
+
+    <!-- Dialog TextInputLayout Style -->
+    <style name="DialogTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@android:color/black</item>
+        <item name="hintTextColor">@android:color/black</item>
+        <item name="boxStrokeColor">#F8BC12</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="endIconTint">@android:color/black</item>
+        <item name="startIconTint">@android:color/black</item>
+    </style>
+
+    <!-- Dialog TextInputEditText Style -->
+    <style name="DialogTextInputEditText">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

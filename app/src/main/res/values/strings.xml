@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Smart Restaurant</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- User roles for login -->
+    <string-array name="user_roles">
+        <item>CUSTOMER</item>
+        <item>WAITER</item>
+        <item>CHEF</item>
+        <item>MANAGER</item>
+    </string-array>
+
+    <!-- Report types and time periods for analytics -->
+    <string-array name="report_types">
+        <item>Sales Report</item>
+        <item>Inventory Report</item>
+        <item>Staff Performance</item>
+    </string-array>
+
+    <string-array name="time_periods">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <!-- Payment methods -->
+    <string-array name="payment_methods">
+        <item>CASH</item>
+        <item>CREDIT_CARD</item>
+        <item>DEBIT_CARD</item>
+        <item>MOBILE_PAYMENT</item>
+        <item>ONLINE_PAYMENT</item>
+    </string-array>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit ameterat maximus, vitae volutpat diam dignissim.
+    </string>
+
+    <!-- Google Maps API Key -->
+    <string name="google_maps_key">YOUR_API_KEY</string>
+
+    <!-- Map Related Strings -->
+    <string name="restaurant_location">Restaurant Location</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="slider_image1">Slider Image 1</string>
+    <string name="slider_image2">Slider Image 2</string>
+    <string name="slider_image3">Slider Image 3</string>
+</resources>

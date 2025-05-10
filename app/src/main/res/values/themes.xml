@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmartRestaurant" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">serif</item>
+        <item name="fontFamily">serif</item>
+
+        <!-- Fullscreen settings -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges
+        </item>
+
+        <!-- Apply our custom text appearances -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.SmartRestaurant.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.SmartRestaurant.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.SmartRestaurant.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.SmartRestaurant.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.SmartRestaurant.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.SmartRestaurant.Headline6</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.SmartRestaurant.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.SmartRestaurant.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.SmartRestaurant.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.SmartRestaurant.Caption</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.SmartRestaurant.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.SmartRestaurant.Subtitle2</item>
+
+        <!-- Default widget styles -->
+        <item name="android:textViewStyle">@style/Widget.SmartRestaurant.TextView</item>
+
+        <!-- Toolbar style -->
+        <item name="toolbarStyle">@style/Widget.SmartRestaurant.Toolbar</item>
+
+        <!-- FloatingActionButton style -->
+        <item name="floatingActionButtonStyle">@style/Widget.SmartRestaurant.FloatingActionButton
+        </item>
+
+        <!-- Button style -->
+        <item name="materialButtonStyle">@style/Widget.SmartRestaurant.Button</item>
+    </style>
+
+    <style name="Theme.SmartRestaurant" parent="Base.Theme.SmartRestaurant" />
+
+    <style name="Theme.SmartRestaurant.PopupOverlay" parent="ThemeOverlay.Material3.Light" />
+
+    <style name="Theme.SmartRestaurant.Fullscreen" parent="Theme.SmartRestaurant">
+        <!-- Fullscreen specific attributes -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges
+        </item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

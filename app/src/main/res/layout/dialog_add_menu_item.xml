@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        style="@style/DialogTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menu_item_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            style="@style/DialogTextInputEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        style="@style/DialogTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menu_item_description_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+            style="@style/DialogTextInputEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price ($)"
+        style="@style/DialogTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menu_item_price_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            style="@style/DialogTextInputEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category (appetizer, main, dessert)"
+        style="@style/DialogTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menu_item_category_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            style="@style/DialogTextInputEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Image URL (optional)"
+        style="@style/DialogTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/menu_item_image_url_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            style="@style/DialogTextInputEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
